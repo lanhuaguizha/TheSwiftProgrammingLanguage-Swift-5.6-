@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug TheSwiftProgrammingLanguage-Swift-5.6-",
+            "program": ".build/debug/TheSwiftProgrammingLanguage-Swift-5.6-",
+            "args": [],
+            "cwd": "${workspaceFolder:TheSwiftProgrammingLanguage-Swift-5.6-}",
+            "preLaunchTask": "swift: Build Debug TheSwiftProgrammingLanguage-Swift-5.6-"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Release TheSwiftProgrammingLanguage-Swift-5.6-",
+            "program": ".build/release/TheSwiftProgrammingLanguage-Swift-5.6-",
+            "args": [],
+            "cwd": "${workspaceFolder:TheSwiftProgrammingLanguage-Swift-5.6-}",
+            "preLaunchTask": "swift: Build Release TheSwiftProgrammingLanguage-Swift-5.6-"
+        }
+    ]
+}
